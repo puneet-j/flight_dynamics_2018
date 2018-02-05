@@ -12,7 +12,8 @@
   <!-- <node pkg="flight_dynamics" name="moving_node" type="moving_node.py" output="screen"/> -->
   <node name="sliders" pkg="rqt_ez_publisher" type="rqt_ez_publisher"/>
   <!-- <node name="sliders" pkg="rqt_ez_publisher" type="rqt_ez_publisher" args="-slider-file $(arg sliderconfig)" required="true"/> -->
-  <node pkg="flight_dynamics" name="flight_dynamics" type="flight_dynamics.py" output="screen"/>
+  <node pkg="flight_dynamics" name="forces" type="forces.py" output="screen"/>
+  <!-- <node pkg="flight_dynamics" name="flight_dynamics" type="flight_dynamics.py" output="screen"/> -->
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
 
 </launch>

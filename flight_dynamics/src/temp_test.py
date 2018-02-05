@@ -1,11 +1,3 @@
-#Zagi
-#m: 1.56 #kg
-#Jx: 0.1147 #kg-m^2
-#Jy: 0.0576 #kg-m^2
-#Jz: 0.1712 #kg-m^2
-#Jxz: 0.0015 #kg-m^2
-
-#Aerosonde
 m: 13.5 #kg
 Jx: 0.8244 #kg-m^2
 Jy: 1.135 #kg-m^2
@@ -25,7 +17,7 @@ C_D_0: 0.03
 C_m_0: -0.02338
 C_L_alpha: 3.45
 C_D_alpha: 0.30
-C_m_alpha: -0.38
+C_m_aplha: -0.38
 C_L_q: 0.0
 C_D_q: 0.0
 C_m_q: -3.6
@@ -41,7 +33,7 @@ C_n_delta_r: -0.032
 C_Y_0: 0.0
 C_l_0: 0.0
 C_n_0: 0.0
-C_Y_beta: -0.98
+c_Y_beta: -0.98
 C_l_beta: -0.12
 C_n_beta: 0.25
 C_Y_p: 0.0

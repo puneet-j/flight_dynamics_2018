@@ -47,10 +47,10 @@ Visualization Manager:
         Y: 0
         Z: 0
       Plane: XY
-      Plane Cell Count: 10
+      Plane Cell Count: 1000
       Reference Frame: world
       Value: true
-    - Alpha: 0.5
+    - Alpha: 1
       Class: rviz/RobotModel
       Collision Enabled: false
       Enabled: true
@@ -73,7 +73,7 @@ Visualization Manager:
       Visual Enabled: true
     - Class: rviz/TF
       Enabled: true
-      Frame Timeout: 15
+      Frame Timeout: 30
       Frames:
         All Enabled: true
         base_link:
@@ -95,8 +95,8 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: world
-    Frame Rate: 30
+    Fixed Frame: veh
+    Frame Rate: 15
   Name: root
   Tools:
     - Class: rviz/Interact
