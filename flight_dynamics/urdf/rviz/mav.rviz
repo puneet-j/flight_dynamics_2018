@@ -6,7 +6,6 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /Grid1
         - /RobotModel1
         - /TF1
       Splitter Ratio: 0.5
@@ -34,7 +33,7 @@ Visualization Manager:
   Class: ""
   Displays:
     - Alpha: 0.5
-      Cell Size: 100
+      Cell Size: 1
       Class: rviz/Grid
       Color: 160; 160; 164
       Enabled: true
@@ -79,8 +78,6 @@ Visualization Manager:
         All Enabled: true
         base_link:
           Value: true
-        veh:
-          Value: true
         world:
           Value: true
       Marker Scale: 0.5
@@ -90,9 +87,8 @@ Visualization Manager:
       Show Names: true
       Tree:
         world:
-          veh:
-            base_link:
-              {}
+          base_link:
+            {}
       Update Interval: 0
       Value: true
   Enabled: true
@@ -135,10 +131,10 @@ Visualization Manager:
       Invert Z Axis: true
       Name: Current View
       Near Clip Distance: 0.00999999978
-      Pitch: 0.119796008
+      Pitch: 0.374795884
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.92221451
+      Yaw: 1.54221034
     Saved: ~
 Window Geometry:
   Displays:
